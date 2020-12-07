@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>register</title>
+    <link rel="stylesheet" href="./css/register.css">
+    <script src="./js/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="header-top">
+                <img src="./img/register-one.png" alt="">
+                <p>帮助</p>
+            </div>
+            <div class="header-bottom">
+                <img src="./img/logo.png" alt="">
+            </div>
+        </header>
+        <div class="main">
+            <ul>
+                <li><input type="text" placeholder="请输入手机号" pattern="^1[3578]\d{9}$" id="phone"><span>手机号输入错误</span></li>
+                <li class="photo"><input type="text" placeholder="请输入验证码" id="verify"></li>
+                <li><input type="password" placeholder="请输入密码" id="pwd"><span>密码输入错误</span></li>
+            </ul>
+        </div>
+        <div class="main-fot">
+            <img src="./img/login-three.png" class="enroll">
+        </div>
+        <footer>注册即代表同意「迷音」服务条款和隐私条款</footer>
+    </div>
+</body>
+<script>
+    function setRem(){
+    var windw = document.documentElement.clientWidth || document.body.clientWidth;
+    var uiw = 750;
+    document.documentElement.style.fontSize = (windw/uiw)*10+'px'
+  }
+  setRem();
+  window.onresize = setRem;
+</script>
+<script src="./js/register.js"></script>
+</html>

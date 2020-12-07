@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+.wrapper header {
+  width: 100%;
+}
+.wrapper header .header-top {
+  width: 100%;
+  height: 12.7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrapper header .header-top img {
+  width: 4.2rem;
+  height: 4.2rem;
+  margin-left: 3.2rem;
+}
+.wrapper header .header-top p {
+  width: 6rem;
+  font-size: 3rem;
+  color: #666666;
+  margin-right: 3.5rem;
+}
+.wrapper header .header-bottom {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper header .header-bottom img {
+  width: 25rem;
+  height: 27.4rem;
+}
+.wrapper .main {
+  margin-top: 5rem;
+  width: 100%;
+}
+.wrapper .main ul {
+  width: 100%;
+}
+.wrapper .main ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60rem;
+  margin-left: 7.4rem;
+  padding-top: 6.6rem;
+  padding-bottom: 2.4rem;
+  border-bottom: 0.3rem solid #E8E8E8;
+  position: relative;
+}
+.wrapper .main ul li input {
+  text-align: center;
+  font-size: 2.8rem;
+  color: #999999;
+  outline: none;
+  border: none;
+}
+.wrapper .main ul li span {
+  display: none;
+  color: #f00;
+  font-size: 1.6rem;
+  position: absolute;
+  bottom: 3rem;
+  right: 5rem;
+}
+.wrapper .main ul .photo {
+  background: url(../img/login-two.png) no-repeat 56rem 6.2rem;
+  background-size: 4.4rem 4.4rem;
+}
+.wrapper .main-fot {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6.5rem;
+}
+.wrapper .main-fot img {
+  width: 10.2rem;
+  height: 10.2rem;
+}
+.wrapper footer {
+  width: 100%;
+  margin-top: 18.1rem;
+}
+.wrapper footer .footer-top {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+.wrapper footer .footer-top p {
+  width: 31.5rem;
+  font-size: 2.6rem;
+  color: #666;
+  text-align: center;
+}
+.wrapper footer .footer-top p span:nth-child(2) {
+  padding: 0 2rem;
+}
+.wrapper footer .footer-center {
+  width: 100%;
+  color: #999999;
+  font-size: 2.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 7.5rem;
+}
+.wrapper footer .footer-center span {
+  color: #666666;
+}
+.wrapper footer .footer-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 9.4rem;
+}
+.wrapper footer .footer-bottom img {
+  width: 9rem;
+  height: 9rem;
+}
+.wrapper footer .footer-bottom img:nth-child(2) {
+  padding: 0 6.7rem;
+}

@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+.wrapper header {
+  width: 100%;
+}
+.wrapper header .header-top {
+  width: 100%;
+  height: 12.7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrapper header .header-top img {
+  width: 4.2rem;
+  height: 4.2rem;
+  margin-left: 3.2rem;
+}
+.wrapper header .header-top p {
+  width: 6rem;
+  font-size: 3rem;
+  color: #666666;
+  margin-right: 3.5rem;
+}
+.wrapper header .header-bottom {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper header .header-bottom img {
+  width: 25rem;
+  height: 27.4rem;
+}
+.wrapper .main {
+  margin-top: 5rem;
+  width: 100%;
+}
+.wrapper .main ul {
+  width: 100%;
+}
+.wrapper .main ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60rem;
+  margin-left: 7.4rem;
+  padding-top: 6.6rem;
+  padding-bottom: 2.4rem;
+  border-bottom: 0.3rem solid #E8E8E8;
+  position: relative;
+}
+.wrapper .main ul li input {
+  text-align: center;
+  font-size: 2.8rem;
+  color: #999999;
+  outline: none;
+  border: none;
+}
+.wrapper .main ul li span {
+  display: none;
+  color: #f00;
+  font-size: 1.6rem;
+  position: absolute;
+  bottom: 3rem;
+  right: 1rem;
+}
+.wrapper .main ul .photo {
+  background: url(../img/register-two.png) no-repeat 48rem 7rem;
+  background-size: 11.7rem 2.3rem;
+}
+.wrapper .main-fot {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6.5rem;
+}
+.wrapper .main-fot img {
+  width: 10.2rem;
+  height: 10.2rem;
+}
+.wrapper footer {
+  width: 100%;
+  color: #999999;
+  font-size: 2.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24.5rem;
+  padding-bottom: 7.5rem;
+}

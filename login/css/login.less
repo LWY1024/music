@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul,li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+.wrapper {
+    width: 100%;
+    height: 100%;
+    header {
+        width: 100%;
+        .header-top {
+            width: 100%;
+            height: 12.7rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            img {
+                width: 4.2rem;
+                height: 4.2rem;
+                margin-left: 3.2rem;
+            }
+            p {
+                width: 6rem;
+                font-size: 3rem;
+                color: #666666;
+                margin-right: 3.5rem;
+            }
+        }
+        .header-bottom {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+                width: 25rem;
+                height: 27.4rem;
+            }
+        }
+    }
+    .main {
+        margin-top: 5rem;
+        width: 100%;
+        ul {
+            width: 100%;
+            li {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 60rem;
+                margin-left: 7.4rem;
+                padding-top: 6.6rem;
+                padding-bottom: 2.4rem;
+                border-bottom: .3rem solid #E8E8E8;
+                position: relative;
+                input {
+                    text-align: center;
+                    font-size: 2.8rem;
+                    color: #999999;
+                    outline: none;
+                    border: none;
+                }
+                span {
+                    display: none;
+                    color: #f00;
+                    font-size: 1.6rem;
+                    position: absolute;
+                    bottom: 3rem;
+                    right: 5rem;
+                }
+            }
+            .photo {
+                background: url(./../img/login-two.png) no-repeat 56rem 6.2rem;
+                background-size: 4.4rem 4.4rem;
+            }
+        }
+    }
+    .main-fot {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 6.5rem;
+        img {
+            width: 10.2rem;
+            height: 10.2rem;
+        }
+    }
+    footer {
+        width: 100%;
+        margin-top: 18.1rem;
+        .footer-top {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 2.5rem;
+            p {
+                width: 31.5rem;
+                font-size: 2.6rem;
+                color: #666;
+                text-align: center;
+                span:nth-child(2) {
+                    padding: 0 2rem;
+                }
+            }
+        }
+       .footer-center {
+            width: 100%;
+            color: #999999;
+            font-size: 2.2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 7.5rem;
+            span {
+                color: #666666;
+            }
+       }
+       .footer-bottom {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 9.4rem;
+            img {
+                width: 9rem;
+                height: 9rem;
+            }
+            img:nth-child(2) {
+                padding: 0 6.7rem;
+            }
+       }
+    }
+}
